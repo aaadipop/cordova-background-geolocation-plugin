@@ -167,7 +167,6 @@
                   <action android:name="android.intent.action.BOOT_COMPLETED" />
                </intent-filter>
             </receiver>
-            <uses-library android:name="org.apache.http.legacy" android:required="true" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
